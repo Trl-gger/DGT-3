@@ -27,7 +27,7 @@ def render():
         li = html.LI()
         li.attrs["data-id"] = str(it["id"])
 
-        # ✅ doplnené
+        # doplnené
         if it["done"]:
             li.class_name = "done"
 
@@ -77,7 +77,7 @@ def add_item(text: str):
     new_id = (max([x["id"] for x in items]) + 1) if items else 1
     obj = {"id": new_id, "text": text, "done": False}
 
-    # ✅ doplnené
+    # doplnené
     items.append(obj)
 
     selected_id = new_id
@@ -136,7 +136,7 @@ def on_list_click(ev):
     # vždy označ vybranú položku
     selected_id = item_id
 
-    # ✅ doplnené
+    # doplnené
     if role == "done":
         toggle_done(item_id)
 
