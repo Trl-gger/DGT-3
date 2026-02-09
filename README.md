@@ -63,4 +63,17 @@ OBMEDZENIA A BEZPEČNOSŤ
  ODDELENIE STATICKÝCH A DYNAMICKÝCH SÚBOROV 
 - Správne usporiadanie súborov oddeľuje statické od dynamických, čo zlepšuje cache a uľahčuje údržbu aplikácie
 
-- 
+ ---REGISTRÁCIA SERVICE WORKERA V INDEX.HTML---
+  ZÁKLADNÝ KROK PWA
+- Registrácia Service Workera je kľúčová pre správnu implementáciu progresívnych webových aplikácií
+
+  UMIESTNENIE V INDEX.HTML
+- Kód registrácie sa vkladá pred koniec body, aby sa nezdržovalo načítanie stránky
+
+   BEZPEČNOSTNÉ OBMEDZENIA
+- Registrácia funguje len na HTTPS alebo localhost kvôl bezpečnosti prehliadačov
+
+   PROFESIONALITA A LADENIE
+- Po registrácii možno sledovať stav v konzole, čo podporuje profesioálnu webovú prax
+
+
