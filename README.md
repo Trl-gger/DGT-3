@@ -83,4 +83,9 @@ OBMEDZENIA A BEZPEČNOSŤ
  PRECACHE A APP SHELL
 - PRECACHE_ASSETS obsahuje kľúćové súbory ako index.html, štýly, skripty a ikony pre rýchly štart aplikácie
 
+ FETCH A OFFLINE CALLBACK
+- Pri navigačných požiadavkách sa obsah načítava zo siete, inak sa zobrazí offline stránka offline.html
+
+ RUNTIME CACHING A SELEKTÍVNA OBSLUHA
+- Runtine caching umožňuje dynamické dopĺňanie cache a selektívnu obsluhu podľa typu požiadavky 
 
