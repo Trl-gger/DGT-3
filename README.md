@@ -1,4 +1,4 @@
-**SERVICE WORKER**
+---SERVICE WORKER---
 - Service Worker je JavaScriptový skript, ktorý beží na pozadí prehliadača nezávisle od otvorenej stránky a interceptuje sieťové požiadavky. Používa sa na cachovanie zdrojov, zlepšenie rýchlosti, a umožnenie offline režimu.
 
  PREČO POUŽIŤ
@@ -36,7 +36,7 @@
 OBMEDZENIA A BEZPEČNOSŤ
 - SW funguje iba nna HTTPS alebo localhost a vyžaduje rovnaký pôvod ako webová stránka
 
-**APP SHELL MODEL**
+---APP SHELL MODEL---
 
  ZÁKLADNÁ KOSTRA APLIKÁCIE
 - App shell precachuje základné súbory ako index.html, CSS a skripty pri inštalácii Service Workera
