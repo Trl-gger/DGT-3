@@ -76,4 +76,11 @@ OBMEDZENIA A BEZPEČNOSŤ
    PROFESIONALITA A LADENIE
 - Po registrácii možno sledovať stav v konzole, čo podporuje profesioálnu webovú prax
 
+---SW.JS - PROFESIONÁLNY ZÁKLAD---
+ CACHE VERZOVANIE A AKTUALIZÁCIE 
+- CACHE_VERSION sa manuálne mení, aby sa zabránilo uchovávaniu zastaraných súborov v cache
+
+ PRECACHE A APP SHELL
+- PRECACHE_ASSETS obsahuje kľúćové súbory ako index.html, štýly, skripty a ikony pre rýchly štart aplikácie
+
 
