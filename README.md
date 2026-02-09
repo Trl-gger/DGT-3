@@ -48,4 +48,19 @@ OBMEDZENIA A BEZPEČNOSŤ
 - Dynamické dáta sa načítavajú počas behu aplikácie, oddelene od statickej kostry
 
  VÝHODY PRE ŠKOLSKÉ PROJEKTY 
-- Model App Shell pomáha žiakom pochopiť offline režim a rpzdeliť projekt na statickú a dynamickú časť 
+- Model App Shell pomáha žiakom pochopiť offline režim a rpzdeliť projekt na statickú a dynamickú časť
+
+---MINIMÁLNA ŠTRUKTÚRA PWA PROJEKTU---
+ POVINNÉ SÚBORY PWA
+- Klúčové súbory ako index.html, style.css, sw.js, offline.html a manifest.webmanifest tvoria základ PWA projektu a jeho funkcionality
+
+  ŠTRUKTÚRA PRIEČINKOV
+- Priečinok icons obsahuje ikony vo veľkostiach 192x192px a 512x512px pre PWA, zabezpečuje vizuálnu identitu aplikácie
+
+ BRYTHON ŠPECIFIKÁCIA 
+- Brython projekty vyžadujú app.py, brython.min a brython_stdlib.js na zabezpečenie lokálnej funkčnosti aj bez internetu
+
+ ODDELENIE STATICKÝCH A DYNAMICKÝCH SÚBOROV 
+- Správne usporiadanie súborov oddeľuje statické od dynamických, čo zlepšuje cache a uľahčuje údržbu aplikácie
+
+- 
