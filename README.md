@@ -1,4 +1,4 @@
----SERVICE WORKER---
+...SERVICE WORKER...
 - Service Worker je JavaScriptový skript, ktorý beží na pozadí prehliadača nezávisle od otvorenej stránky a interceptuje sieťové požiadavky. Používa sa na cachovanie zdrojov, zlepšenie rýchlosti, a umožnenie offline režimu.
 
  PREČO POUŽIŤ
@@ -36,7 +36,7 @@
 OBMEDZENIA A BEZPEČNOSŤ
 - SW funguje iba nna HTTPS alebo localhost a vyžaduje rovnaký pôvod ako webová stránka
 
----APP SHELL MODEL---
+...APP SHELL MODEL...
 
  ZÁKLADNÁ KOSTRA APLIKÁCIE
 - App shell precachuje základné súbory ako index.html, CSS a skripty pri inštalácii Service Workera
@@ -50,7 +50,7 @@ OBMEDZENIA A BEZPEČNOSŤ
  VÝHODY PRE ŠKOLSKÉ PROJEKTY 
 - Model App Shell pomáha žiakom pochopiť offline režim a rpzdeliť projekt na statickú a dynamickú časť
 
----MINIMÁLNA ŠTRUKTÚRA PWA PROJEKTU---
+...MINIMÁLNA ŠTRUKTÚRA PWA PROJEKTU...
  POVINNÉ SÚBORY PWA
 - Klúčové súbory ako index.html, style.css, sw.js, offline.html a manifest.webmanifest tvoria základ PWA projektu a jeho funkcionality
 
@@ -63,7 +63,7 @@ OBMEDZENIA A BEZPEČNOSŤ
  ODDELENIE STATICKÝCH A DYNAMICKÝCH SÚBOROV 
 - Správne usporiadanie súborov oddeľuje statické od dynamických, čo zlepšuje cache a uľahčuje údržbu aplikácie
 
- ---REGISTRÁCIA SERVICE WORKERA V INDEX.HTML---
+...REGISTRÁCIA SERVICE WORKERA V INDEX.HTML...
   ZÁKLADNÝ KROK PWA
 - Registrácia Service Workera je kľúčová pre správnu implementáciu progresívnych webových aplikácií
 
@@ -76,7 +76,7 @@ OBMEDZENIA A BEZPEČNOSŤ
    PROFESIONALITA A LADENIE
 - Po registrácii možno sledovať stav v konzole, čo podporuje profesioálnu webovú prax
 
----SW.JS - PROFESIONÁLNY ZÁKLAD---
+...SW.JS - PROFESIONÁLNY ZÁKLAD...
  CACHE VERZOVANIE A AKTUALIZÁCIE 
 - CACHE_VERSION sa manuálne mení, aby sa zabránilo uchovávaniu zastaraných súborov v cache
 
