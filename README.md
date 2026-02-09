@@ -1,4 +1,4 @@
-...SERVICE WORKER...
+---SERVICE WORKER---
 - Service Worker je JavaScriptový skript, ktorý beží na pozadí prehliadača nezávisle od otvorenej stránky a interceptuje sieťové požiadavky. Používa sa na cachovanie zdrojov, zlepšenie rýchlosti, a umožnenie offline režimu.
 
  PREČO POUŽIŤ
