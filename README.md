@@ -36,7 +36,7 @@ S E R V I C E - W O R K E R
 OBMEDZENIA A BEZPEČNOSŤ
 - SW funguje iba nna HTTPS alebo localhost a vyžaduje rovnaký pôvod ako webová stránka
 
-...APP SHELL MODEL...
+A P P - S H E L L - M O D E L
 
  ZÁKLADNÁ KOSTRA APLIKÁCIE
 - App shell precachuje základné súbory ako index.html, CSS a skripty pri inštalácii Service Workera
@@ -63,7 +63,7 @@ OBMEDZENIA A BEZPEČNOSŤ
  ODDELENIE STATICKÝCH A DYNAMICKÝCH SÚBOROV 
 - Správne usporiadanie súborov oddeľuje statické od dynamických, čo zlepšuje cache a uľahčuje údržbu aplikácie
 
-...REGISTRÁCIA SERVICE WORKERA V INDEX.HTML...
+R E G I S T R Á C I A - S E R V I C E - W O R K E R A - V - I N D E X . HTML
   ZÁKLADNÝ KROK PWA
 - Registrácia Service Workera je kľúčová pre správnu implementáciu progresívnych webových aplikácií
 
@@ -76,7 +76,7 @@ OBMEDZENIA A BEZPEČNOSŤ
    PROFESIONALITA A LADENIE
 - Po registrácii možno sledovať stav v konzole, čo podporuje profesioálnu webovú prax
 
-...SW.JS - PROFESIONÁLNY ZÁKLAD...
+S W . J S - P R O F E S I O N Á L N Y - Z Á K L A D
  CACHE VERZOVANIE A AKTUALIZÁCIE 
 - CACHE_VERSION sa manuálne mení, aby sa zabránilo uchovávaniu zastaraných súborov v cache
 
