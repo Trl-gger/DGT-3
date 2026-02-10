@@ -1,4 +1,4 @@
-                                                             S E R V I C E - W O R K E R
+    S E R V I C E - W O R K E R
 - Service Worker je JavaScriptový skript, ktorý beží na pozadí prehliadača nezávisle od otvorenej stránky a interceptuje sieťové požiadavky. Používa sa na cachovanie zdrojov, zlepšenie rýchlosti, a umožnenie offline režimu.
 
  PREČO POUŽIŤ
@@ -36,7 +36,7 @@
 OBMEDZENIA A BEZPEČNOSŤ
 - SW funguje iba nna HTTPS alebo localhost a vyžaduje rovnaký pôvod ako webová stránka
 
-A P P - S H E L L - M O D E L
+      A P P - S H E L L - M O D E L
 
  ZÁKLADNÁ KOSTRA APLIKÁCIE
 - App shell precachuje základné súbory ako index.html, CSS a skripty pri inštalácii Service Workera
@@ -50,7 +50,7 @@ A P P - S H E L L - M O D E L
  VÝHODY PRE ŠKOLSKÉ PROJEKTY 
 - Model App Shell pomáha žiakom pochopiť offline režim a rpzdeliť projekt na statickú a dynamickú časť
 
-...MINIMÁLNA ŠTRUKTÚRA PWA PROJEKTU...
+      MINIMÁLNA ŠTRUKTÚRA PWA PROJEKTU
  POVINNÉ SÚBORY PWA
 - Klúčové súbory ako index.html, style.css, sw.js, offline.html a manifest.webmanifest tvoria základ PWA projektu a jeho funkcionality
 
@@ -63,7 +63,7 @@ A P P - S H E L L - M O D E L
  ODDELENIE STATICKÝCH A DYNAMICKÝCH SÚBOROV 
 - Správne usporiadanie súborov oddeľuje statické od dynamických, čo zlepšuje cache a uľahčuje údržbu aplikácie
 
-R E G I S T R Á C I A - S E R V I C E - W O R K E R A - V - I N D E X . HTML
+      REGISTRÁCIA SERVICE WORKERA V INDEX.HTML
   ZÁKLADNÝ KROK PWA
 - Registrácia Service Workera je kľúčová pre správnu implementáciu progresívnych webových aplikácií
 
@@ -76,7 +76,7 @@ R E G I S T R Á C I A - S E R V I C E - W O R K E R A - V - I N D E X . HTML
    PROFESIONALITA A LADENIE
 - Po registrácii možno sledovať stav v konzole, čo podporuje profesioálnu webovú prax
 
-S W . J S - P R O F E S I O N Á L N Y - Z Á K L A D
+      SW.JS - PROFESIONÁLNY ZÁKLAD
  CACHE VERZOVANIE A AKTUALIZÁCIE 
 - CACHE_VERSION sa manuálne mení, aby sa zabránilo uchovávaniu zastaraných súborov v cache
 
